@@ -1,0 +1,64 @@
+body{
+  background-color:#F6F6F6;
+}
+
+h1{
+  text-align:center;
+}
+
+.add-user{
+  background-color:grey;
+  border:2px solid pink;
+  width:40%;
+  margin:3em 0 0 4em;
+}
+
+.user-form{
+  padding:0 5em;
+}
+
+
+input{
+  height:3em;
+  width:300px;
+  border:2px solid pink;
+
+}
+li{
+  padding:1em 1em 1em;
+  list-style:none;
+
+}
+button{
+
+}
+
+.first-name {
+  margin-top:20px;
+
+
+}
+
+.last-name {
+
+
+
+}
+
+
+.email {
+
+
+}
+
+.add-yo-self{
+  background-color:pink;
+  font-size:30px;
+  margin-left:55px;
+  margin-top:20px;
+}
+
+.add-yo-self:hover{
+  background-color:seagreen;
+  font-size:30px;
+}

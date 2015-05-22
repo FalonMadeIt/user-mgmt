@@ -1,10 +1,17 @@
 body{
+  background-repeat:no-repeat;
+  background:linear-gradient(pink, transparent );
   background-color:#F6F6F6;
+  margin-bottom:8em;
+
 }
 
 h1{
   text-align:center;
   margin-left:2em;
+  font-family: 'Bitter', serif;
+  color:pink;
+  text-shadow: 2px 2px black;
 }
 
 .add-user{
@@ -12,12 +19,17 @@ h1{
   border:2px solid pink;
   width:40%;
   margin:3em 0 0 4em;
+  border-radius:1em;
 }
 
 .user-form{
   padding:0 5em;
 }
 
+img{
+  width:90%;
+  padding:20px;
+}
 
 input{
   height:3em;
@@ -57,9 +69,17 @@ button{
   font-size:30px;
   margin-left:55px;
   margin-top:20px;
+  font-family: 'Bitter', serif;
+  padding-left:1em;
+  padding-right:1em;
+  text-shadow: 1px 1px #808080;
 }
 
 .add-yo-self:hover{
-  background-color:seagreen;
+  background-color:#FF99CC;
   font-size:30px;
+
 }
+
+
+/******* Responsive Design ********?

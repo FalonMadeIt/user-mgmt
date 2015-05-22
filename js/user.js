@@ -1,14 +1,13 @@
 
 var arr = [];
 
-var userInfo = $(".add-yo-self").on('click', function (e){
+$('form').on('submit', function (e){
   e.preventDefault();
-	var firstName = $('.first-name').val();
-	var lastName = $('.last-name').val();
-	var email = $('.email').val();
 
-
-
-  arr.push({firstName: first-name, lastName:  last-name, email: email});
+  arr.push({
+  	firstName: $('.first-name').val(),
+	lastName: $('.last-name').val(),
+	email: $('.email').val()
+  });
 
 });

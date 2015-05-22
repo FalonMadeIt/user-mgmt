@@ -1,5 +1,6 @@
 
-var arr = [];
+var userList = [];
+var uesrRecord = {firstName, lastName, email };
 
 var userInfo = $(".add-yo-self").on('click', function (e){
   e.preventDefault();

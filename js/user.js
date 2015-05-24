@@ -13,7 +13,7 @@ $('form').on('submit', function (e){
   });
 
   var li = arr.map(function(info){
-    return("<li><span>" + info.firstName + info.lastName + info.email + "</span><button>x</button></li>");
+    return("<li><span>" + info.firstName +"   " + info.lastName +"   " +  info.email +"       " + "</span><button>x</button></li>");
   });
 
   $('.display-user').html(li);

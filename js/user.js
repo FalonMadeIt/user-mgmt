@@ -18,16 +18,3 @@ $('form').on('submit', function (e){
 
   $('.display-user').html(li);
 });
-
-
-
-
-
-// var displayUserInput = $.map(arr, fucntion (i) {
-//   return
-//   <div><ul> <li class="display-firstName"> ' + i.firstName  + '> </li></ul></div>
-//   <div><ul> <li class="display-lastName"> ' + i.lastName  + '> </li></ul></div>
-//   <div><ul> <li class="display-email"> ' + i.email  + '> </li></ul></div>
-// });
-//
-// $(display-user).html(displayUserInput);
